@@ -10,27 +10,38 @@ body {
 
 /* Estilo para el header */
 header {
-    background-color: #2b2f32;
+    background: linear-gradient(135deg, #2b2f32, #2b2f32, #9ac84b);
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 /* Estilo para el logo */
-/* Centrar el logo  */
 .logo {
     flex: 1;
     text-align: center;
 }
 
 .logo img {
-    height: 70px;
-    margin-left: 40px;
+    height: 60px;
 }
 
 /* Estilo para el nav */
+nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -39,17 +50,36 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    nav {
+        margin-top: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
 }
 
 /* Estilo para el main */
