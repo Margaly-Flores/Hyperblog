@@ -11,7 +11,7 @@ Un blog de prueba para el [Curso de Git y GitHub de Platzi](https://platzi.com/c
 * Las personalidades múltiples de Freddy 
 * Varios memes relacionados al curso como este: 
 
-![](https://drive.google.com/thumbnail?id=11VBNd7M0v_xpAaaLBs70Mr9lYsehh6lI&sz=w1000)
+![](https://drive.google.com/thumbnail?id=1f0AO1BH9RjldbO63IZCSG---yJvqu7Go&sz=w1000)
 > - ☠️**No intentar PELIGRO**☠️ 
 
 Recordatorio: **Este README.md es solo una prueba**. No tomarlo en serio.
