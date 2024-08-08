@@ -16,4 +16,5 @@ Un blog de prueba para el [Curso de Git y GitHub de Platzi](https://platzi.com/c
 
 Recordatorio: **Este README.md es solo una prueba**. No tomarlo en serio.
 
-
+**Blog de ejemplo:**
+https://margaly-flores.github.io/hyperblog/blogpost.html
